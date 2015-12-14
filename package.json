@@ -1,0 +1,36 @@
+{
+  "name": "qb-appseed-generator",
+  "version": "0.0.1",
+  "description": "A yeoman app seed generator for QB's next generation web applications",
+  "license": "MIT",
+  "main": "app/index.js",
+  "scripts": {
+    "build": "./bin/build",
+    "watch": "./bin/watch",
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "redux",
+    "react",
+    "flux",
+    "reducers",
+    "webpack",
+    "yeoman",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "es6-promise": "^3.0.2",
+    "isomorphic-fetch": "^2.1.1",
+    "slug": "^0.9.1",
+    "yeoman-generator": "^0.20.3",
+    "yosay": "^1.0.5"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "mocha": "^2.3.3"
+  }
+}

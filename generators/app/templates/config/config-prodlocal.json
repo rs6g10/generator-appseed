@@ -1,0 +1,22 @@
+{
+  "useMockData": false,
+  "logLevel": "debug",
+  "mockConfig": {
+    "cardInterval": 1000,
+    "timeInterval": 1000,
+    "mockLoadingDelay": 2000,
+    "initial" : 100
+  },
+  "timeline": {
+    "groupInterval": 60,
+    "maxValue": 50
+  },
+  "environment": "dev",
+  "showDevTools": false,
+  "endpoints": {
+    "serverConfigUrl": "https://development1.fomsystem.com/insight_test/api/setupconfig",
+    "kpiUrl": "src/data/usa-data-1962.json",
+    "kpiEndpoint" : "https://development1.fomsystem.com/insight_test/api/kpi",
+    "signalREndpoint" : "https://development1.fomsystem.com/insight_test/signalr"
+  }
+}

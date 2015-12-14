@@ -1,0 +1,22 @@
+{
+  "useMockData": true,
+  "logLevel": "debug",
+  "mockConfig": {
+    "cardInterval": 1000,
+    "timeInterval": 1000,
+    "mockLoadingDelay": 2000,
+    "initial" : 1000
+  },
+  "timeline": {
+    "groupInterval": 60,
+    "maxValue": 50
+  },
+  "environment": "dev",
+  "showDevTools": false,
+  "endpoints": {
+    "serverConfigUrl": "src/data/sessionConfig-1962.json",
+    "kpiUrl": "src/data/usa-data-1962.json",
+    "kpiEndpoint" : "http://localhost/InsightAlerts/api/kpi",
+    "signalREndpoint" : "http://localhost/InsightAlerts/signalr"
+  }
+}

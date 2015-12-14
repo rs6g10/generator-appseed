@@ -1,0 +1,22 @@
+@import '../../sass/mixins/rem';
+@import '../../sass/mixins/flexbox';
+@import '../../sass/mixins/transitions';
+@import '../../sass/mixins/animation';
+@import '../../sass/mixins/keyframe';
+@import '../../sass/mixins/breakpoint';
+@import '../../sass/mixins/transforms';
+@import '../../sass/variables';
+
+.card {
+  margin: 50px;
+  padding: 50px;
+  border: 1px solid grey;
+
+  &.card--expanded {
+    background: green;
+  }
+}
+  .card__id {
+    margin-right: 10px;
+  }
+  .card__title {}
